@@ -289,7 +289,6 @@ hr {
 }
 
 .logo {
-  margin-inline-end: auto;
   padding-inline-start: 0;
 }
 
@@ -304,7 +303,6 @@ hr {
 .main-nav .links {
   gap: 1em;
   align-items: center;
-  justify-content: flex-end;
 }
 
 .main-nav .button {
@@ -571,3 +569,25 @@ hr {
 
 /* Site specific */
 
+.login {
+  margin-inline-start: auto;
+}
+
+.h1 .bg-image {
+  background-image: url("./images/illustration-working.svg");
+}
+
+input {
+  flex-grow: 1;
+  border-radius: var(--radius);
+}
+
+.img-round {
+    height: calc(var(--line-h)*2);
+    background-color: var(--medium);
+    width: calc(var(--line-h)*2);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
